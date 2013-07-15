@@ -1,0 +1,8 @@
+rm .rdesktop/licence.bs-*
+#rdesktop -a 16  -d D -u jamuelle bs-ts01.ethz.ch -f
+rdesktop -a 16  -d D -u jamuelle bs-vdesk01.ethz.ch -f
+#rdesktop -a 16  -d D -u jamuelle bs-dsvr08.ethz.ch -f -r printer:VPP_BSAM740
+#rdesktop -g 1024x768 -x b -u jamuelle -d D bs-ts-wrapper.d.ethz.ch -p -
+#rdesktop -g 1024x768 -x b -u jamuelle -d D bs-ts-wrapper -p -
+#rdesktop -f -x b -u jamuelle -d D bs-ts-wrapper -p -
+

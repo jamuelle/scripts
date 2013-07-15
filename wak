@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ST=`/bin/grep -A 1 "Last Search" ~/.viminfo | sed 's/.*\///' | sed 's/[\<>]//g'| tail -n 1`
+
+ack $ST
